@@ -28,46 +28,42 @@
 ```bash
 git clone https://github.com/yourusername/ai-moodboard-composer.git
 cd ai-moodboard-composer
+```
 
-🔐 2. Create a .env File
+### 🔐 2. Create a .env File
 Create a .env file in the root folder and add:
 
-ini
-Copy
-Edit
+```ini
 COHERE_API_KEY=your-cohere-key-here
 HUGGINGFACE_API_TOKEN=your-huggingface-token-here
+```
 💡 If you’re not using image generation, the Hugging Face token can be skipped.
 
-📦 3. Install Dependencies
-bash
-Copy
-Edit
+### 📦 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 Or manually:
 
-bash
-Copy
-Edit
+```bash
 pip install streamlit requests cohere python-dotenv huggingface_hub pillow
+```
 
-▶️ 4. Run the App
-bash
-Copy
-Edit
+### ▶️ 4. Run the App
+
+```bash
 streamlit run app.py
+```
 
-🤖 AI Used
+### 🤖 AI Used
 Cohere Command Model: Expands brief themes into detailed prompts.
 
 Colormind API: Curates harmonious color palettes.
 
 (Optional) HuggingFace: For AI-generated images (disabled in this build).
 
-📄 License
-This project is licensed under the MIT License.
-
 🙌 Contributing
 Pull requests are welcome! Feel free to open an issue or suggest new features.
 
-Built with ❤️ by [Neo]
+### Built with ❤️ by [Neo] :)
