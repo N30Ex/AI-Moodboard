@@ -26,7 +26,7 @@
 ### 🔧 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-moodboard-composer.git
+git clone https://github.com/N30Ex/ai-moodboard-composer.git
 cd ai-moodboard-composer
 ```
 
