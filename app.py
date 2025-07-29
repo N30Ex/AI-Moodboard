@@ -7,7 +7,8 @@ st.title("🎨 AI Moodboard Composer")
 st.caption("Generate visual inspiration with the power of Generative AI.")
 
 # ---- API KEYS ----
-COHERE_API_KEY = os.getenv("COHERE_API_KEY")  
+
+COHERE_API_KEY = os.getenv("COHERE_API_KEY"))  
 co = cohere.Client(COHERE_API_KEY)
 
 prompt = st.text_input("Enter a moodboard theme (e.g., nature calm, tech futuristic, cozy vintage):")
